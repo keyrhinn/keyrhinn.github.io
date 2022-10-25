@@ -38,11 +38,11 @@ ctrl+F to search for [BITTERN] to jump there.
 --------------------------------------------------->
 
 <!-- edit [about] below to change the text on the browser tab -->
-<title>about</title>
+<title>keyrhinn's twitter info</title>
 
 <!-- replace [{Favicon}] below with an image URL to have a custom favicon 
      favicon = the small icon on browser tabs; by default it's your pfp. -->
-<link rel="shortcut icon" href="{Favicon}" />
+<link rel="shortcut icon" href="https://static.tumblr.com/u5vz4xb/Zl1o0mg08/008.png" />
 
 
 <!-- custom cursor-->
@@ -94,7 +94,7 @@ ctrl+F to search for [BITTERN] to jump there.
         2. scroll down & choose the icon you like
         3. copy the icon code and replace the one above **/
         
-    /** navigation buttons -- i.e, intro, tags, following, contact **/
+    /** navigation buttons -- i.e, intro, medias, following, contact **/
     --nav-colour: #aaaaaa; /** default text colour **/
     
     /** colour when hovered **/
@@ -126,41 +126,13 @@ ctrl+F to search for [BITTERN] to jump there.
 
 /********************************************************** MEDIA **/
     /** left photo **/
-    --tag-photoURL: url("https://images.unsplash.com/photo-1608914998172-587b1b25f247?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    --media-photoURL: url("https://static.tumblr.com/vuyqqve/7O5rkbljb/ezgif.com-gif-maker__2_.gif");
     
-    /** tag block categories
-        There are three colour ways that are alternated. **/
-    --tag-category-A-BG: #66a9ba;
-    --tag-category-A-txt: #ffffff;
-    
-    --tag-category-B-BG: #d9ab5b;
-    --tag-category-B-txt: #ffffff;
-    
-    --tag-category-C-BG: #f0e3ad;
-    --tag-category-C-txt: #9c6527;
-
-    /** tag link buttons **/
-    --tag-link-BG: #f6f6f6;
-    --tag-link-txt: #444444;
-    --tag-link-border: #dadada;
-    --tag-link-BG-hovered: #f8f8f8; /** when hovered **/
-    --tag-link-txt-hovered: #000000;
 
 
 /*********************************************************** BYF **/
     /** left photo **/
-    --fol-photoURL: url("https://static.tumblr.com/vuyqqve/7llrka0r2/ezgif.com-gif-maker__1_.gif");
-    
-    /** visit blog icon link **/
-    --fol-visit-icon-BG: #eaeaea;
-    --fol-visit-icon: #aaaaaa;
-    
-    /** follow blog icon link **/
-    --fol-follow-icon-BG: #66a9ba;
-    --fol-follow-icon: #ffffff;
-    
-    --fol-info-username: #444444;
-    --fol-info-blogtitle: #aaaaaa;
+    --byf-photoURL: url("https://static.tumblr.com/vuyqqve/7llrka0r2/ezgif.com-gif-maker__1_.gif");
     
 
 /*********************************************************** FAQ+ASK **/
@@ -756,12 +728,12 @@ li { margin-bottom: 5px; }
 }
 
 .media-photo {
-    background-image: var(--tag-photoURL);
+    background-image: var(--media-photoURL);
 }
 
 
 .byf-photo {
-    background-image: var(--fol-photoURL);
+    background-image: var(--byf-photoURL);
     margin-right: 20px;
     filter: hue-rotate(345deg) saturate(80%);
 }
@@ -898,6 +870,10 @@ li { margin-bottom: 5px; }
     
 </div><!--header-->
 
+
+
+
+
 <div class="content"><div class="allviews">
     
 <div class="view"><!-- about me intro panel -------------------------------->
@@ -934,30 +910,30 @@ li { margin-bottom: 5px; }
     <div class="abt-bio">
         <div class="bio-graphy">
         
-<!-- Replace this text with your own bio --------------------------------->
-        
+<!-- ============================ BIOGRAPHY  ========================== -->
+
 <p>Snooping on me, eh? Be sure to check out my BYF, since that's probably what you're here for.</p> 
 
 
 <h2>My Cats</h2>
 
-<p>My cats comprise 80% of what I tweet about. <b>Castella</b> is a female long-haired tortie, and <b>Howl</b> is a male black long-haired cat. I might sound mean when I talk about Castella, but she is especially close to me, whereas Howl has aligned himself with my partner, Koi.</p>
+<p>My cats comprise 80% of what I tweet about. <b>Castella</b> is a female long-haired tortie, and <b>Howl</b> is a male black long-haired cat. I might sound mean when I talk about Castella, but she is especially close (and evil) to me, whereas Howl has aligned himself with my partner, Koi.</p>
 
 <h2>moots</h2>
 
-<p>I'm most active on Discord followed closely by Twitter. Feel free to req any of my game/steam info.</p>
+<p>I'm most active on Discord followed closely by Twitter. Feel free to req any of my game/steam info!!</p>
         
 <!-- end of biography space ----------------------------------------------->
         
         </div><!--bio-graphy-->
-        
     </div><!--abt-bio-->
 </div><!--abt-layout-->
 </div><!-- end of INTRO panel -->
     
     
-    
-    
+<!-- ============================ MEDIA PAGE  ========================== -->
+<!-- =================================================================== -->
+
     
 
 <div class="view"><!-- media panel ------------------------------------->
@@ -972,7 +948,7 @@ li { margin-bottom: 5px; }
             
             <h2>Games:</h2>
             <ul>
-                <li> Kingdom Hearts Franchise </li>
+                <li> Kingdom Hearts </li>
                 <li> Granblue Fantasy </li>
                 <li> Genshin Impact </li>
                 <li> Animal Crossing </li>
@@ -996,6 +972,12 @@ li { margin-bottom: 5px; }
 </div><!-- end of MEDIA panel -->
 
 
+
+<!-- ============================ BYF PAGE  ========================== -->
+<!-- =================================================================== -->
+
+
+
 <div class="view"><!-- BYF panel -------------------------------->
     <div class="view-photo byf-photo"></div>
     <div class="byf-layout">
@@ -1015,20 +997,13 @@ li { margin-bottom: 5px; }
             
             </div>
         </div>
-        
     </div>
+</div>
 
 
 
+<!-- ============================ QNA PAGE  ============================
 
-</div><!-- end of BYF panel -->
-
-
-<div class="view"><!-- abt2 panel --------------------------------------->
-    
-    <div class="view-photo qna-photo"></div>
-    <div class="qna-content">
-    
     <!-- QNA SECTION ----------------------------------------------------->
     <!-- You can add as many QNA blocks as you would like. Basic template:
     
@@ -1038,6 +1013,18 @@ li { margin-bottom: 5px; }
     </div>
     
     -->
+
+<!-- =================================================================== -->
+
+
+
+
+<div class="view"><!-- abt2 panel --------------------------------------->
+    
+    <div class="view-photo qna-photo"></div>
+    <div class="qna-content">
+    
+
     
     <div class="qna-block">
         <div class="qna-qn">Did you really give birth to two cats?</div>
@@ -1052,7 +1039,7 @@ li { margin-bottom: 5px; }
     
        <div class="qna-block">
         <div class="qna-qn">Why do you like Kingdom Hearts?</div>
-        <div class="qna-ans">My dad got me the game on PS2 when it came out and I was ~5-6 y/o. First JRPG and first introduction to Disney/Square Enix. I've made some silly (large) life decisions that can stem back to this franchise. A butterfly effect moment. Also, whatever the hell is going on with Riku.</div>
+        <div class="qna-ans">My dad got me the game on PS2 when it came out and I was ~5-6 y/o. First JRPG and first introduction to Disney/Square Enix. I've made some silly (large) life decisions that can stem back to this franchise. A butterfly effect moment. Also, I'm obsessed with whatever the hell is going on with Riku.</div>
     </div>
     
 
@@ -1172,9 +1159,9 @@ $(".qna-qn").click(function(){
 <script src="/path/to/masonry.pkgd.min.js"></script>
 <script type="text/javascript">
 $(window).load(function () {
-$('.tag-con').masonry({
+$('.media-con').masonry({
   // options
-  itemSelector: '.tag-block'
+  itemSelector: '.media-block'
 });
 });
 </script>
